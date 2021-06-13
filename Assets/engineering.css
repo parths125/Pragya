@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid .navbar-brand{
+    font-weight: bolder;
+    font-size: 1.6rem;
+    margin-left: 10%;
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#main-div{
+    /* border: 2px solid black; */
+    max-width: 1213px;
+    height: auto;
+    margin: auto;
+    
+}
+#main-div #heading-eng{
+    text-align: center;
+    font-size: 1.5rem;
+    color: darkblue;
+    font-family: cursive;
+    font-weight: 600;
+}
+#inner-main{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    /* justify-content: space-between; */
+}
+#cse{
+    width:500px;
+    height: auto;
+    /* border: 2px solid black; */
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+#cse>span{
+    font-size: 1.4rem;
+    font-family: cursive;
+    font-weight: bold;
+    
+    
+
+}
+#cse-box{
+    /* border: 2px solid black; */
+    /* color: black; */
+    /* text-decoration: none; */
+}
+#cse-box a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.0rem;
+    
+    font-family:sans-serif;
+}
+#cse-box a div{
+    transition: transform 0.8s;
+}
+#cse-box a div:hover{
+    transform: scale(1.1);
+    /* box-shadow: 1px 1px 1px 1px gray; */
+    /* height: 40px; */
+
+}
+#cse-box a i{
+    float: right;
+    font-size: 25px;
+    margin-right: 5px;
+}
+.footer{
+    background-color: rgb(35,40,45);
+    width: 100%;
+    max-width: 1523px;
+    margin: auto;
+    height: auto;
+    color: white;
+    text-align:center
+}
+.footer a{
+text-decoration: none;
+color: white;
+font-family: cursive;
+font-weight: 500;
+}
